@@ -11,14 +11,7 @@ def pascal_tri(numRows):
         # print each row in a new line
         print("\n")
 
-
-
-
-
-
 n=int(input("donnez un nombre"))
-
-
 
 def pascalSpot(row,col):
     if (col==1):
@@ -33,7 +26,3 @@ for r in range(n, 0, -1):
         print(pascalSpot(r,c),end=" ")
     print("")
 pascal_tri(n)
-
-
-
-
